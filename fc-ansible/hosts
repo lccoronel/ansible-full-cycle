@@ -1,0 +1,8 @@
+[all]
+52.91.91.8
+54.227.68.126
+54.173.157.255
+
+[all:vars]
+ansible_ssh_private_key_file=/Users/lucascoronel/Documents/ansible-full-cycle/fc-ansible/certificate-full-cycle.pem
+ansible_user=ubuntu
