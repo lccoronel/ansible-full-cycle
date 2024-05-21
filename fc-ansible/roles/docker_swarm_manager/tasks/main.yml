@@ -2,6 +2,7 @@
 - name: Init docker swarm
   docker_swarm:
     state: present
+    api_version: 1.43
   register: init_swarm
 
 - name: join
